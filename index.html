@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+     <!-- Meta information about the document -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Page title -->
+    <title>Botany Downs Secondary College Subjects Website</title>
+    
+        <!-- Link to Font Awesome icons stylesheet -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    
+        <!-- Link to custom stylesheet -->
+
+    <link rel="stylesheet" href="style.css">
+    
+  
+
+    
+    </head>
+    
+
+    
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logogood-removebg-preview.png" alt="">
+           <!-- Navigation menu -->
+        <div class="navigation">
+            <ul>
+                <!-- Close button for the menu on mobile -->
+
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+               <!-- Menu button for mobile navigation -->
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+       
+    </nav>
+    
+    <!-- Home -->
+    
+    <section id="home">
+        <h2>Botany Downs Secondary College Subjects</h2>
+        <p> At Botany Downs Secondary College, the selection of option subjects is important and should be made with personal reflection and open dialogue between students, parents and staff.</p>
+    </section>
+    
+    <!-- Options -->
+    
+    <section id="options">
+        <h1>Options</h1>
+        <p>Level 1, Level 2, and Level 3</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <h3>Level 1</h3>
+                <p>English, Mathematics, Science and Active Well Being are compulsory and students can choose THREE other options from a wide range of subjects.</p>
+            </div>
+            <div class="fea-box">
+                <h3>Level 2</h3>
+                <p>Only English is compulsory and students can choose FIVE other options.</p>
+            </div>
+            <div class="fea-box">
+                <h3>Level 3</h3>
+                <p>There are no compulsory subjects and students choose FIVE option subjects.</p>
+            </div>
+        </div>
+    </section>
+        
+        <!-- Courses -->
+        <section id="course">
+            <h1>Our Popular Subjects</h1>
+            <p>These are some subjects that Botany Downs Secondary College offer.</p>
+            <div class="course-box">
+                
+                <div class="courses">
+                    <img src="images/maths.png" alt="">
+                    <div class="details">
+                        <h6>Mathematics</h6>
+                 </div>
+            </div>
+            <div class="courses">
+                    <img src="images/science.png" alt="">
+                    <div class="details">
+                        <h6>Science</h6>
+                     </div>
+            </div>
+            <div class="courses">
+                    <img src="images/english.png" alt="">
+                    <div class="details">
+                        <h6>English</h6>
+                    </div>
+            </div>
+            <div class="courses">
+                    <img src="images/health.png" alt="">
+                    <div class="details">
+                        <h6>Health and Physical Education</h6>
+                </div>
+            </div>
+            </div>
+    </section>
+    
+
+    <!--image slider start-->
+    <div class="slider">
+        <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+                <img src="images/1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/2.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/3.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/4.png" alt="">
+            </div>
+            
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--automatic naviation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+    
+
+
+<script> 
+    var counter = 2;
+    
+    setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 4){
+        counter = 1;
+    }
+}, 5000);
+    </script>
+                
+                
+    <!-- Profiles -->
+    <section id="leadership">
+        <h1>Senior Leadership Team</h1>
+        <p>The Senior Leadership Team of Botany Downs Secondary College.</p>
+        <div class="leadership-box">
+            
+            <div class="profile">
+                <img src="images/princ.png" alt="">
+                <h6>Mrs Karen Brinsden</h6>
+                <p>Principal</p>
+            </div>
+        
+        <div class="profile">
+                <img src="images/assocprinc.png" alt="">
+                <h6>Mrs Kerrie Holmes</h6>
+                <p>Associate Principal</p>
+        </div>
+        
+        <div class="profile">
+                <img src="images/depprincmcgregor.png" alt="">
+                <h6>Mrs Debbie McGregor</h6>
+                <p>Deputy Principal</p>
+               
+            </div>
+        
+        <div class="profile">
+                <img src="images/depprinccvk.png" alt="">
+                <h6>Mr Cornell Van Kralingen</h6>
+                <p>Deputy Principal</p>
+                
+            </div>
+            
+            <div class="profile">
+                <img src="images/depprinckwp.png" alt="">
+                <h6>Mr Keir Whipp</h6>
+                <p>Deputy Principal</p>
+                
+            </div>
+            
+            <div class="profile">
+                <img src="images/depprinccwm.png" alt="">
+                <h6>Mrs Christine Williams</h6>
+                <p>Deputy Principal</p>
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    <!-- Footer -->
+    
+    <footer>
+   
+        
+        <div class="copyright">
+            <p>Copyright @2023 All rights reserved | This template is made by Phoenix</p>
+            <div class="leadership-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+</script>
+
+    
+</body>
+    
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botany Downs Secondary College Subjects Website</title>
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    
+    <link rel="stylesheet" href="style.css">
+    
+
+    
+</head>
+    
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logogood-removebg-preview.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+    
+    <!-- Home -->
+    
+    <section id="about-blog">
+        <h2>Blog</h2>
+        
+    </section>
+    
+    <section id="blog-container"> 
+        <div class="blogs"> 
+        <div class="post">
+            <img src="images/b1.jpeg" alt="">
+            <h3>Mathematics and Statistics</h3>
+            <a href="post.html">Read More</a>
+        </div>
+            <div class="post">
+            <img src="images/b2.jpeg" alt="">
+            <h3>Science</h3>
+            <a href="post2.html">Read More</a>
+        </div>
+            <div class="post">
+            <img src="images/b3.jpeg" alt="">
+            <h3>English</h3>
+            <a href="post3.html">Read More</a>
+        </div>
+            <div class="post">
+            <img src="images/b4.jpeg" alt="">
+            <h3>Health and Physical Education</h3>
+            <a href="post4.html">Read More</a>
+        </div>
+        </div>
+        
+        
+        
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Mathematics and Statistics</a>
+            <hr>
+            <a href="#">Science</a>
+            <hr>
+            <a href="#">English</a>
+            <hr>
+            <a href="#">Health and Physical Education</a>
+            <hr>
+        </div>
+
+
+    </section>
+    
+
+
+   
+    
+    <!-- Footer -->
+    
+    <footer>
+        
+        
+        <div class="copyright">
+            <p>Copyright @2023 All rights reserved | This template is made by Phoenix</p>
+            <div class="leadership-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+    $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+    });
+</script>
+
+    
+</body>
+    
+</html>
